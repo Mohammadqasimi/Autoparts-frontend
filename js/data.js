@@ -160,7 +160,7 @@ const INVENTORY = [
     id: 47,
     photos: ["new500.jpeg", "new501.jpeg", "new502.jpeg", "new503.jpeg","new504.jpeg", "new505.jpeg", "new506.jpeg", "new507.jpeg", "new508.jpeg","new509.jpeg", "new510.jpeg", "new511.jpeg",], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
-    title: "NOW WRECKing 2015 volkswagen amarok",
+    title: "NOW WRECKing 2016 volkswagen amarok",
     fits: "Most Part Still Available we ship parts all over Australia",
     // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
     price: "",
