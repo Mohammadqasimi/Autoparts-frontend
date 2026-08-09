@@ -213,7 +213,7 @@ const INVENTORY = [
     condition: "",
     img: "new478.jpeg",
     id: 45,
-    photos: ["new478.jpeg", "new479.jpeg", "new480.jpeg", "new481.jpeg","new482.jpeg", "new483.jpeg", "new484.jpeg", "new485.jpeg", "new486.jpeg", "new487.jpeg", "new488.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    photos: ["new478.jpeg", "new479.jpeg", "new480.jpeg", "new481.jpeg","new482.jpeg", "new483.jpeg", "new484.jpeg", "new485.jpeg", "new486.jpeg", "new487.jpeg", "new488.jpeg", "b.jpeg", "c.jpeg"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "NOW WRECKing 2017 mercedes cla 250 ",
     fits: "Most Part Still Available we ship parts all over Australia",
