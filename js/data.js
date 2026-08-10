@@ -156,6 +156,19 @@ const INVENTORY = [
    {
     cat: "body",
     condition: "",
+    img: "new524.jpeg",
+    id: 49,
+    photos: ["new524.jpeg", "new525.jpeg", "new526.jpeg", "new527.jpeg","new528.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKing 2011 toyota rav4",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N/A",
+  },
+   {
+    cat: "body",
+    condition: "",
     img: "new500.jpeg",
     id: 47,
     photos: ["new500.jpeg", "new501.jpeg", "new502.jpeg", "new503.jpeg","new504.jpeg", "new505.jpeg", "new506.jpeg", "new507.jpeg", "new508.jpeg","new509.jpeg", "new510.jpeg", "new511.jpeg",], // TODO: replace with real front/rear/side/interior photos
