@@ -156,6 +156,19 @@ const INVENTORY = [
    {
     cat: "body",
     condition: "",
+    img: "new537.jpeg",
+    id: 51,
+    photos: ["new537.jpeg", "new538.jpeg", "new539.jpeg", "new540.jpeg","new541.jpeg", "new542.jpeg","new543.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKing 2017 jeep grand cherokee",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N/A",
+  },
+   {
+    cat: "body",
+    condition: "",
     img: "new530.jpeg",
     id: 50,
     photos: ["new530.jpeg", "new531.jpeg", "new532.jpeg", "new533.jpeg","new534.jpeg", "new535.jpeg","new536.jpeg"], // TODO: replace with real front/rear/side/interior photos
