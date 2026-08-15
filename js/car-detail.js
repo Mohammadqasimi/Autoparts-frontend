@@ -118,7 +118,7 @@ function renderVehicle(vehicle) {
       <div class="detail-gallery">
         <div class="gallery-main" id="galleryMain">
           <img id="galleryMainImg" src="${photos[0]}" alt="${vehicle.title} — photo 1">
-          ${vehicle.condition ? `<span class="inv-condition">${vehicle.condition}</span>` : ""}
+          ${"" ? `<span class="inv-condition">${""}</span>` : ""}
           ${
             photos.length > 1
               ? `
@@ -286,7 +286,7 @@ function renderRelated(current) {
       <div class="inv-card">
         <a class="inv-media" href="car-detail.html?id=${item.id}" aria-label="View all photos of ${item.title}">
           <img src="${item.img}" alt="${item.title}" loading="lazy">
-          <span class="inv-condition">${item.condition}</span>
+          <span class="inv-condition">${""}</span>
           <span class="inv-photo-count"><i class="fa-solid fa-camera"></i> ${photoCount}</span>
         </a>
         <div class="inv-body">
