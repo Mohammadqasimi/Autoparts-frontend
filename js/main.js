@@ -235,7 +235,7 @@ function renderInventory() {
     <div class="inv-card" data-cat="${item.cat}" data-search="${(item.title + " " + item.catLabel + " " + item.fits).toLowerCase()}">
       <a class="inv-media" href="car-detail.html?id=${detailId}" aria-label="View all photos of ${item.title}">
         <img src="${item.img}" alt="${item.title}" loading="lazy">
-        <span class="inv-condition">${item.condition}</span>
+        <!-- <span class="inv-condition">${""}</span> -->
         <span class="inv-photo-count"><i class="fa-solid fa-camera"></i> ${photoCount}</span>
       </a>
       <div class="inv-body">

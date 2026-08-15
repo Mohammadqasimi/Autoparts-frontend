@@ -155,7 +155,7 @@ const SERVICES = [
 const INVENTORY = [
    {
     cat: "body",
-    condition: "",
+    // condition: "",
     img: "new558.jpeg",
     id: 54,
     photos: ["new558.jpeg", "new559.jpeg", "new560.jpeg", "new561.jpeg","new562.jpeg", "new563.jpeg"], // TODO: replace with real front/rear/side/interior photos
@@ -308,6 +308,19 @@ const INVENTORY = [
     photos: ["new470.jpeg", "new471.jpeg", "new472.jpeg", "new473.jpeg","new474.jpeg", "new475.jpeg", "new476.jpeg", "new477.jpeg"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "NOW WRECKing 2015 jeep cherokee  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N/A",
+  },
+   {
+    cat: "body",
+    condition: "",
+    img:"photos/new580.jpeg",
+    id: 57,
+    photos: ["photos/new580.jpeg", "photos/new581.jpeg", "photos/new582.jpeg", "photos/new583.jpeg","photos/new584.jpeg", "photos/new585.jpeg", "photos/new586.jpeg", "photos/new587.jpeg","photos/new588.jpeg", "photos/new589.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKing 1995 suzuki jimmy",
     fits: "Most Part Still Available we ship parts all over Australia",
     // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
     price: "",
