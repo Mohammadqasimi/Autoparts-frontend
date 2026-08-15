@@ -155,7 +155,7 @@ const SERVICES = [
 const INVENTORY = [
    {
     cat: "body",
-    // condition: "",
+    condition: "",
     img: "new558.jpeg",
     id: 54,
     photos: ["new558.jpeg", "new559.jpeg", "new560.jpeg", "new561.jpeg","new562.jpeg", "new563.jpeg"], // TODO: replace with real front/rear/side/interior photos
