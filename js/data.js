@@ -153,6 +153,19 @@ const SERVICES = [
 
 // ---- Live inventory cards ----
 const INVENTORY = [
+  {
+    cat: "body",
+    condition: "",
+    img: "photos/new563.jpeg",
+    id: 58,
+    photos: ["photos/new563.jpeg", "photos/new564.jpeg", "photos/new565.jpeg", "photos/new566.jpeg","photos/new567.jpeg", "photos/new568.jpeg", "photos/new569.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKing 2006 MITsubishi pajero",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #DA",
+  },
    {
     cat: "body",
     condition: "",
