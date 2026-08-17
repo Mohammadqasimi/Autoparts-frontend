@@ -186,7 +186,7 @@ const INVENTORY = [
     id: 56,
     photos: ["new571.jpeg", "new572.jpeg", "new573.jpeg", "new574.jpeg","new575.jpeg", "new576.jpeg", "new577.jpeg", "new578.jpeg"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
-    title: "NOW WRECKing 2016 toyota hiace diesel 130k",
+    title: "NOW WRECKing 2016 toyota hiace diesel DIESel",
     fits: "Most Part Still Available we ship parts all over Australia",
     // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
     price: "",
