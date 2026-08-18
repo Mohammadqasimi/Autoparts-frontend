@@ -153,6 +153,58 @@ const SERVICES = [
 
 // ---- Live inventory cards ----
 const INVENTORY = [
+    {
+    cat: "body",
+    condition: "",
+    img: "photos/new611.jpeg",
+    id: 62,
+    photos: ["photos/new611.jpeg", "photos/new612.jpeg", "photos/new613.jpeg", "photos/new614.jpeg","photos/new615.jpeg", "photos/new616.jpeg", "photos/new617.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKing 2016 mitsubishi asx",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #W13",
+  },
+    {
+    cat: "body",
+    condition: "",
+    img: "photos/new608.jpeg",
+    id: 61,
+    photos: ["photos/new608.jpeg", "photos/new605.jpeg", "photos/new606.jpeg", "photos/new607.jpeg","photos/new608.jpeg", "photos/new609.jpeg", "photos/new610.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKing 2013 toyota corolla hatch",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #070",
+  },
+   {
+    cat: "body",
+    condition: "",
+    img: "photos/new601.jpeg",
+    id: 60,
+    photos: ["photos/new601.jpeg", "photos/new597.jpeg", "photos/new598.jpeg", "photos/new599.jpeg","photos/new600.jpeg", "photos/new602.jpeg", "photos/new603.jpeg", "photos/new604.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKing 2016 holden ute ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N/A",
+  },
+  {
+    cat: "body",
+    condition: "",
+    img: "photos/new590.jpeg",
+    id: 59,
+    photos: ["photos/new590.jpeg", "photos/new591.jpeg", "photos/new592.jpeg", "photos/new593.jpeg","photos/new594.jpeg", "photos/new595.jpeg", "photos/new596.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKing 2013 kia rio ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N/A",
+  },
   {
     cat: "body",
     condition: "",
