@@ -153,6 +153,19 @@ const SERVICES = [
 
 // ---- Live inventory cards ----
 const INVENTORY = [
+   {
+    cat: "body",
+    condition: "",
+    img: "photos/new618.jpeg",
+    id: 63,
+    photos: ["photos/new618.jpeg", "photos/new619.jpeg", "photos/new620.jpeg", "photos/new621.jpeg","photos/new622.jpeg", "photos/new623.jpeg", "photos/new624.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "wrecking 2022 tesla model 3 long range duel motor",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N/A",
+  },
     {
     cat: "body",
     condition: "",
