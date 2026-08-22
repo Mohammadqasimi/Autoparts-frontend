@@ -153,6 +153,32 @@ const SERVICES = [
 
 // ---- Live inventory cards ----
 const INVENTORY = [
+  {
+    cat: "body",
+    condition: "",
+    img: "photos/new634.jpeg",
+    id: 65,
+    photos: ["photos/new634.jpeg","photos/new635.jpeg", "photos/new636.jpeg", "photos/new637.jpeg", "photos/new638.jpeg","photos/new639.jpeg", "photos/new640.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW wrecking 2014 ford ranger ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #36C",
+  },
+    {
+    cat: "body",
+    condition: "",
+    img: "photos/new625.jpeg",
+    id: 64,
+    photos: ["photos/new625.jpeg", "photos/new626.jpeg", "photos/new627.jpeg", "photos/new628.jpeg","photos/new629.jpeg", "photos/new630.jpeg", "photos/new631.jpeg", "photos/new632.jpeg", "photos/new633.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW wrecking 2019 HONDA HR-V",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N/A",
+  },
    {
     cat: "body",
     condition: "",
