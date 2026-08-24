@@ -153,6 +153,19 @@ const SERVICES = [
 
 // ---- Live inventory cards ----
 const INVENTORY = [
+    {
+    cat: "body",
+    condition: "",
+    img: "photos/new641.jpeg",
+    id: 66,
+    photos: ["photos/new641.jpeg","photos/new642.jpeg", "photos/new643.jpeg", "photos/new644.jpeg", "photos/new645.jpeg","photos/new646.jpeg", "photos/new647.jpeg", "photos/new648.jpeg","photos/new649.jpeg",], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW wrecking 2022 isuzu mu-x ls-t 4x4 ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N/A",
+  },
   {
     cat: "body",
     condition: "",
