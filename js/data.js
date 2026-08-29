@@ -156,6 +156,19 @@ const INVENTORY = [
      {
     cat: "body",
     condition: "",
+    img: "photos/new688.jpeg",
+    id: 73,
+    photos: ["photos/new688.jpeg","photos/new689.jpeg", "photos/new690.jpeg", "photos/new691.jpeg", "photos/new692.jpeg", "photos/new693.jpeg", "photos/new694.jpeg", "photos/new695.jpeg", "photos/new696.jpeg", "photos/new697.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW wrecking 2021 ford ranger ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #NKA",
+  },
+     {
+    cat: "body",
+    condition: "",
     img: "photos/new680.jpeg",
     id: 72,
     photos: ["photos/new680.jpeg","photos/new681.jpeg", "photos/new682.jpeg", "photos/new683.jpeg", "photos/new684.jpeg", "photos/new685.jpeg", "photos/new686.jpeg", "photos/new687.jpeg"], // TODO: replace with real front/rear/side/interior photos
