@@ -153,6 +153,45 @@ const SERVICES = [
 
 // ---- Live inventory cards ----
 const INVENTORY = [
+    {
+    cat: "body",
+    condition: "",
+    img: "photos/new710.jpeg",
+    id: 76,
+    photos: ["photos/new710.jpeg","photos/new711.jpeg", "photos/new712.jpeg", "photos/new713.jpeg", "photos/new714.jpeg", "photos/new715.jpeg","photos/new716.jpeg","photos/new717.jpeg", "photos/new718.jpeg", "photos/new719.jpeg", "photos/new720.jpeg", "photos/new721.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW wrecking 2018 MASERATI ghibli ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N/A",
+  },
+     {
+    cat: "body",
+    condition: "",
+    img: "photos/new704.jpeg",
+    id: 75,
+    photos: ["photos/new704.jpeg","photos/new705.jpeg", "photos/new706.jpeg", "photos/new707.jpeg", "photos/new708.jpeg", "photos/new709.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW wrecking 2005 NISSAN SKYLINE 350GT ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N/A",
+  },
+   {
+    cat: "body",
+    condition: "",
+    img: "photos/new698.jpeg",
+    id: 74,
+    photos: ["photos/new698.jpeg","photos/new699.jpeg", "photos/new700.jpeg", "photos/new701.jpeg", "photos/new702.jpeg", "photos/new703.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW wrecking 2015 hyundai elentra",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N4B",
+  },
      {
     cat: "body",
     condition: "",
