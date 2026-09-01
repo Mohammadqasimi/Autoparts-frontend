@@ -169,6 +169,19 @@ const INVENTORY = [
      {
     cat: "body",
     condition: "",
+    img: "photos/new728.jpeg",
+    id: 78,
+    photos: ["photos/new728.jpeg","photos/new729.jpeg", "photos/new730.jpeg", "photos/new731.jpeg", "photos/new732.jpeg", "photos/new733.jpeg", "photos/new734.jpeg", "photos/new735.jpeg", "photos/new736.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW wrecking 2015 kia cerato sedan  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #K3R",
+  },
+     {
+    cat: "body",
+    condition: "",
     img: "photos/new722.jpeg",
     id: 77,
     photos: ["photos/new722.jpeg","photos/new723.jpeg", "photos/new724.jpeg", "photos/new725.jpeg", "photos/new726.jpeg", "photos/new727.jpeg"], // TODO: replace with real front/rear/side/interior photos
@@ -179,6 +192,7 @@ const INVENTORY = [
     price: "",
     stock: "Paint code #070",
   },
+
      {
     cat: "body",
     condition: "",
