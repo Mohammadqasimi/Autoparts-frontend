@@ -169,6 +169,19 @@ const INVENTORY = [
      {
     cat: "body",
     condition: "",
+    img: "photos/new722.jpeg",
+    id: 77,
+    photos: ["photos/new722.jpeg","photos/new723.jpeg", "photos/new724.jpeg", "photos/new725.jpeg", "photos/new726.jpeg", "photos/new727.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW wrecking 2011 toyota camry  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #070",
+  },
+     {
+    cat: "body",
+    condition: "",
     img: "photos/new704.jpeg",
     id: 75,
     photos: ["photos/new704.jpeg","photos/new705.jpeg", "photos/new706.jpeg", "photos/new707.jpeg", "photos/new708.jpeg", "photos/new709.jpeg"], // TODO: replace with real front/rear/side/interior photos
