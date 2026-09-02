@@ -166,6 +166,19 @@ const INVENTORY = [
     price: "",
     stock: "Paint code #N/A",
   },
+   {
+    cat: "body",
+    condition: "",
+    img: "photos/new743.jpeg",
+    id: 80,
+    photos: ["photos/new743.jpeg","photos/new744.jpeg", "photos/new745.jpeg", "photos/new746.jpeg", "photos/new747.jpeg", "photos/new748.jpeg", "photos/new749.jpeg", "photos/new750.jpeg", "photos/new751.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW wreckiNG 2021 MG ZA",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N/A",
+  },
     {
     cat: "body",
     condition: "",
