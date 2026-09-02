@@ -166,6 +166,19 @@ const INVENTORY = [
     price: "",
     stock: "Paint code #N/A",
   },
+    {
+    cat: "body",
+    condition: "",
+    img: "photos/new737.jpeg",
+    id: 79,
+    photos: ["photos/new737.jpeg","photos/new738.jpeg", "photos/new739.jpeg", "photos/new740.jpeg", "photos/new741.jpeg", "photos/new742.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW wreckiNG 2013 mazda cx-5 ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #42A",
+  },
      {
     cat: "body",
     condition: "",
