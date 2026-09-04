@@ -169,6 +169,45 @@ const INVENTORY = [
    {
     cat: "body",
     condition: "",
+    img: "photos/new752.jpeg",
+    id: 81,
+    photos: ["photos/new752.jpeg","photos/new753.jpeg", "photos/new754.jpeg", "photos/new755.jpeg", "photos/new756.jpeg", "photos/new757.jpeg", "photos/new758.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW wreckiNG 2024 kia cerato gt hatch",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #M4B",
+  },
+   {
+    cat: "body",
+    condition: "",
+    img: "photos/new759.jpeg",
+    id: 82,
+    photos: ["photos/new759.jpeg","photos/new760.jpeg", "photos/new761.jpeg", "photos/new762.jpeg", "photos/new763.jpeg", "photos/new764.jpeg", "photos/new765.jpeg", "photos/new766.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW wreckiNG 2016 NISSAN LEAF ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N/A",
+  },
+    {
+    cat: "body",
+    condition: "",
+    img: "photos/new767.jpeg",
+    id: 83,
+    photos: ["photos/new767.jpeg","photos/new768.jpeg", "photos/new769.jpeg", "photos/new770.jpeg", "photos/new771.jpeg", "photos/new772.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW wreckiNG 2013 mercedes b200 hatch ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N/A",
+  },
+   {
+    cat: "body",
+    condition: "",
     img: "photos/new743.jpeg",
     id: 80,
     photos: ["photos/new743.jpeg","photos/new744.jpeg", "photos/new745.jpeg", "photos/new746.jpeg", "photos/new747.jpeg", "photos/new748.jpeg", "photos/new749.jpeg", "photos/new750.jpeg", "photos/new751.jpeg"], // TODO: replace with real front/rear/side/interior photos
