@@ -169,6 +169,32 @@ const INVENTORY = [
    {
     cat: "body",
     condition: "",
+    img: "photos/new779.jpeg",
+    id: 85,
+    photos: ["photos/new779.jpeg","photos/new780.jpeg", "photos/new781.jpeg", "photos/new782.jpeg", "photos/new783.jpeg", "photos/new784.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW wreckiNG 2015 hyundai tucson diesel ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #Z3G",
+  },
+   {
+    cat: "body",
+    condition: "",
+    img: "photos/new773.jpeg",
+    id: 84,
+    photos: ["photos/new773.jpeg","photos/new774.jpeg", "photos/new775.jpeg", "photos/new776.jpeg", "photos/new777.jpeg", "photos/new778.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW wreckiNG 2013 hyundai i30  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N2U",
+  },
+   {
+    cat: "body",
+    condition: "",
     img: "photos/new752.jpeg",
     id: 81,
     photos: ["photos/new752.jpeg","photos/new753.jpeg", "photos/new754.jpeg", "photos/new755.jpeg", "photos/new756.jpeg", "photos/new757.jpeg", "photos/new758.jpeg"], // TODO: replace with real front/rear/side/interior photos
