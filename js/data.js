@@ -9,7 +9,7 @@
 const HERO_INTERVAL = 5000;
 const HERO_SLIDES = [
   {
-    img: "22793_2026_EV9_GT-2048x1152.webp",
+    img: "photos/header.jpg",
     kicker: "Used · New · Aftermarket",
     titleTop: "AFJ",
     titleMain: "AUTO PARTS",
@@ -17,7 +17,7 @@ const HERO_SLIDES = [
     lead: "Over 40,000 quality-checked used, new and aftermarket parts pulled from our own yard. Same-day pickup, nationwide shipping and a real warranty on every part.",
   },
   {
-    img: "u9-2560-750x430.webp",
+    img: "photos/header1.jpg",
     kicker: "Engines · Transmissions",
     titleTop: "TESTED,",
     titleMain: "GRADED",
