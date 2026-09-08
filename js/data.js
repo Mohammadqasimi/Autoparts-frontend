@@ -205,6 +205,32 @@ const INVENTORY = [
     price: "",
     stock: "Paint code #YAC",
   },
+  {
+    cat: "body",
+    condition: "",
+    img: "photos/new829.jpeg",
+    id: 92,
+    photos: ["photos/new829.jpeg","photos/new830.jpeg", "photos/new831.jpeg", "photos/new831.jpeg", "photos/new833.jpeg", "photos/new834.jpeg", "photos/new835.jpeg", "photos/new836.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKING 2008 MERCEDES CLS 350   ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N/A",
+  },
+  {
+    cat: "body",
+    condition: "",
+    img: "photos/new824.jpeg",
+    id: 91,
+    photos: ["photos/new824.jpeg","photos/new825.jpeg", "photos/new826.jpeg", "photos/new827.jpeg", "photos/new828.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKING 2012 TOYOTA CAMRY   ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #061",
+  },
    {
     cat: "body",
     condition: "",
