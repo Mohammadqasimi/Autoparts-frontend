@@ -169,6 +169,19 @@ const INVENTORY = [
    {
     cat: "body",
     condition: "",
+    img: "photos/new837.jpeg",
+    id: 93,
+    photos: ["photos/new837.jpeg","photos/new838.jpeg", "photos/new839.jpeg", "photos/new840.jpeg", "photos/new841.jpeg", "photos/new842.jpeg", "photos/new843.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKING 2020 TOYOTA COROLLA HATCH HYBRID    ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #1F7",
+  },
+   {
+    cat: "body",
+    condition: "",
     img: "photos/new814.jpeg",
     id: 90,
     photos: ["photos/new814.jpeg","photos/new815.jpeg", "photos/new816.jpeg", "photos/new817.jpeg", "photos/new818.jpeg", "photos/new819.jpeg", "photos/new820.jpeg", "photos/new821.jpeg", "photos/new822.jpeg", "photos/new823.jpeg"], // TODO: replace with real front/rear/side/interior photos
