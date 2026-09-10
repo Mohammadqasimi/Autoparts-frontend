@@ -39,7 +39,7 @@ const SERVICES = [
   {
     code: "SVC-01",
     img: "engine.png",
-    photos: ["engine.png", "engine.png"], // TODO: add more real engine photos
+    photos: ["engine.png", "engine.png"], 
     title: "Engines",
     desc: "Quality tested engines.",
     // description: "Every engine we sell is pulled from a low-mileage donor vehicle, compression-tested and condition-graded before it goes on the shelf. We check fitment against your VIN or plate before dispatch, and every engine carries a minimum 90-day warranty (extended to 6 months when installed by a licensed mechanic). Available for pickup from the yard or nationwide palletised freight.",
@@ -47,7 +47,7 @@ const SERVICES = [
   {
     code: "SVC-02",
     img: "tran.webp",
-    photos: ["tran.webp", "tran.webp"], // TODO: add more real transmission photos
+    photos: ["tran.webp", "tran.webp"], 
     title: "Transmission",
     desc: "Manual & Automatic.",
     // description: "Manual and automatic transmissions and transfer cases, tested for smooth shifting and fluid condition before sale. We cross-check interchange numbers so the unit matches your exact model and drivetrain, and back every transmission with a written warranty.",
@@ -55,7 +55,7 @@ const SERVICES = [
   {
     code: "SVC-03",
     img: "doors.jpg",
-    photos: ["doors.jpg", "doors.jpg"], // TODO: add more real door photos
+    photos: ["doors.jpg", "doors.jpg"],
     title: "Doors",
     desc: "OEM body part.",
     // description: "Genuine OEM doors in a range of colours and trims, complete with glass, trim clips and mechanisms unless stated otherwise. We can supply a colour-matched panel or the closest available match, ready for straight bolt-on fitment.",
@@ -63,7 +63,7 @@ const SERVICES = [
   {
     code: "SVC-04",
     img: "headligh.avif",
-    photos: ["headligh.avif", "headligh.avif"], // TODO: add more real headlight photos
+    photos: ["headligh.avif", "headligh.avif"], 
     title: "Headlights",
     desc: "Original headlights.",
     // description: "Original manufacturer headlight and taillight assemblies, tested for clarity and working electronics before sale. We check bulb type, wiring loom and adaptive-lighting compatibility against your VIN so it plugs straight in.",
@@ -71,7 +71,7 @@ const SERVICES = [
   {
     code: "SVC-05",
     img: "pumpe.jfif",
-    photos: ["pumpe.jfif", "pumpe.jfif"], // TODO: add more real bumper photos
+    photos: ["pumpe.jfif", "pumpe.jfif"], 
     title: "Bumpers",
     desc: "Front & Rear bumpers.",
     // description: "Front and rear bumper bars and covers, inspected for cracks and mounting-point condition. Sold with or without fog light housings and sensor cut-outs as fitted to the donor vehicle — let us know your trim level for the closest match.",
@@ -79,7 +79,7 @@ const SERVICES = [
   {
     code: "SVC-06",
     img: "mirror1.webp",
-    photos: ["mirror1.webp", "mirror1.webp"], // TODO: add more real mirror photos
+    photos: ["mirror1.webp", "mirror1.webp"],
     title: "Mirrors",
     desc: "Electric mirrors.",
     // description: "Power-fold and manual side mirrors, tested for electric adjustment, heating elements and indicator function where fitted. Available painted to match or in primer/unpainted trim.",
@@ -87,7 +87,7 @@ const SERVICES = [
   {
     code: "SVC-07",
     img: "suspension.jpg",
-    photos: ["suspension.jpg", "suspension.jpg"], // TODO: add more real suspension photos
+    photos: ["suspension.jpg", "suspension.jpg"], 
     title: "Suspension",
     desc: "High quality parts.",
     // description: "Struts, shocks, control arms and suspension components pulled from low-kilometre donors and inspected for wear, leaks and bent components. We match by chassis code so ride height and handling stay factory-correct.",
@@ -119,7 +119,7 @@ const SERVICES = [
   {
     code: "SVC-12",
     img: "steering.jpg",
-    photos: ["steering.jpg", "steering.jpg"], // TODO: add more real steering photos
+    photos: ["steering.jpg", "steering.jpg"], 
     title: "Steering",
     desc: "",
     // description: "Steering racks, columns and power-steering pumps tested for leaks, play and correct assist operation before sale, matched to your exact model and steering configuration.",
@@ -136,7 +136,7 @@ const SERVICES = [
   {
     code: "SVC-15",
     img: "battry.webp",
-    photos: ["battry.webp", "battry.webp"], // TODO: add more real battery photos
+    photos: ["battry.webp", "battry.webp"],
     title: "Battery",
     desc: "",
     // description: "Load-tested batteries and 12V auxiliary units, checked for cold-cranking amps and charge retention before sale, with a short warranty against early failure.",
@@ -144,7 +144,7 @@ const SERVICES = [
   {
     code: "SVC-16",
     img: "abs.jfif",
-    photos: ["abs.jfif", "abs.jfif"], // TODO: add more real ABS module photos
+    photos: ["abs.jfif", "abs.jfif"],
     title: "ABS Module",
     desc: "",
     // description: "ABS pumps and control modules tested on the bench where possible and checked against your VIN for correct part-number match, since ABS units are highly model-specific.",
@@ -154,7 +154,7 @@ const SERVICES = [
 // ---- Live inventory cards ----
 const INVENTORY = [
     {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/new710.jpeg",
     id: 76,
@@ -167,7 +167,7 @@ const INVENTORY = [
     stock: "Paint code #N/A",
   },
    {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/N.jpeg",
     id: 98,
@@ -180,7 +180,7 @@ const INVENTORY = [
     stock: "Paint code #040",
   },
          {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/new893.jpeg",
     id: 103,
@@ -193,7 +193,7 @@ const INVENTORY = [
     stock: "Paint code #N/A",
   },
           {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/new898.jpeg",
     id: 102,
@@ -206,7 +206,7 @@ const INVENTORY = [
     stock: "Paint code #HT",
   },
        {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/new887.jpeg",
     id: 101,
@@ -219,7 +219,7 @@ const INVENTORY = [
     stock: "Paint code #N/A",
   },
      {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/new881.jpeg",
     id: 100,
@@ -232,7 +232,7 @@ const INVENTORY = [
     stock: "Paint code #N/A",
   },
     {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/new875.jpeg",
     id: 99,
@@ -1567,8 +1567,8 @@ const FAQS = [
 const BUSINESS = {
   name: "AFJ Auto Parts & Wrecker",
   phoneDisplay: "0435 796 957",
-  phoneTel: "+61435796957", // used for tel: links
-  whatsappNumber: "61435796957", // no leading 0, no plus, used for wa.me links
+  phoneTel: "+61435796957", 
+  whatsappNumber: "61435796957", 
   whatsappDefaultMessage: "Hi AFJ Auto Parts, I'd like to ask about a part.",
   email: "afj.autoparts@gmail.com",
   website: "afjautoparts.com.au",
