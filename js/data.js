@@ -246,7 +246,7 @@ const INVENTORY = [
   },
   
   {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/new863.jpeg",
     id: 97,
@@ -259,7 +259,7 @@ const INVENTORY = [
     stock: "Paint code #8T7",
   },
   {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/new857.jpeg",
     id: 96,
@@ -272,7 +272,7 @@ const INVENTORY = [
     stock: "Paint code #QAB",
   },
    {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/new849.jpeg",
     id: 95,
@@ -285,7 +285,7 @@ const INVENTORY = [
     stock: "Paint code #N/A",
   },
     {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/new844.jpeg",
     id: 94,
@@ -298,7 +298,7 @@ const INVENTORY = [
     stock: "Paint code #3R3",
   },
    {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/new837.jpeg",
     id: 93,
@@ -311,7 +311,7 @@ const INVENTORY = [
     stock: "Paint code #1F7",
   },
    {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/new814.jpeg",
     id: 90,
@@ -324,7 +324,7 @@ const INVENTORY = [
     stock: "Paint code #8X8",
   },
   {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/new804.jpeg",
     id: 89,
@@ -337,7 +337,7 @@ const INVENTORY = [
     stock: "Paint code #46G",
   },
    {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/new797.jpeg",
     id: 88,
@@ -350,7 +350,7 @@ const INVENTORY = [
     stock: "Paint code #YAC",
   },
   {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/new829.jpeg",
     id: 92,
@@ -363,7 +363,7 @@ const INVENTORY = [
     stock: "Paint code #N/A",
   },
   {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/new824.jpeg",
     id: 91,
@@ -376,7 +376,7 @@ const INVENTORY = [
     stock: "Paint code #061",
   },
    {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/new793.jpeg",
     id: 87,
@@ -389,7 +389,7 @@ const INVENTORY = [
     stock: "Paint code #N/A",
   },
   {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/new785.jpeg",
     id: 86,
@@ -402,7 +402,7 @@ const INVENTORY = [
     stock: "Paint code #7B",
   },
    {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/new779.jpeg",
     id: 85,
@@ -415,7 +415,7 @@ const INVENTORY = [
     stock: "Paint code #Z3G",
   },
    {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/new773.jpeg",
     id: 84,
@@ -428,7 +428,7 @@ const INVENTORY = [
     stock: "Paint code #N2U",
   },
    {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/new752.jpeg",
     id: 81,
@@ -441,7 +441,7 @@ const INVENTORY = [
     stock: "Paint code #M4B",
   },
    {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/new759.jpeg",
     id: 82,
@@ -454,7 +454,7 @@ const INVENTORY = [
     stock: "Paint code #N/A",
   },
     {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/new767.jpeg",
     id: 83,
@@ -467,7 +467,7 @@ const INVENTORY = [
     stock: "Paint code #N/A",
   },
    {
-    cat: "body",
+    cat: "New Arrival",
     condition: "",
     img: "photos/new743.jpeg",
     id: 80,
