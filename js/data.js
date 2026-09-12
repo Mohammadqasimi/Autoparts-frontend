@@ -178,7 +178,35 @@ const INVENTORY = [
     // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
     price: "",
     stock: "Paint code #040",
+  },   
+  
+   {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new912.jpeg",
+    id: 105,
+    photos: ["photos/new912.jpeg","photos/new913.jpeg", "photos/new914.jpeg", "photos/new915.jpeg", "photos/new916.jpeg", "photos/new917.jpeg",, "photos/new918.jpeg", "photos/new919.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKING 2013 AUDI WAGON",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N/A",
   },
+  {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new904.jpeg",
+    id: 104,
+    photos: ["photos/new904.jpeg","photos/new905.jpeg", "photos/new906.jpeg", "photos/new907.jpeg", "photos/new910.jpeg", "photos/new911.jpeg",], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKING 2019 KIA PICANTO GT LINE",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N/A",
+  },
+
          {
     cat: "New Arrival",
     condition: "",
