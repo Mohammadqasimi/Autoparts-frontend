@@ -179,6 +179,19 @@ const INVENTORY = [
     price: "",
     stock: "Paint code #040",
   },   
+     {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new920.jpeg",
+    id: 106,
+    photos: ["photos/new920.jpeg","photos/new921.jpeg", "photos/new922.jpeg", "photos/new923.jpeg", "photos/new924.jpeg", "photos/new925.jpeg",], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKING 2015 NISSAN QASHQAI ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #KY0",
+  },
   
    {
     cat: "New Arrival",
@@ -204,7 +217,7 @@ const INVENTORY = [
     fits: "Most Part Still Available we ship parts all over Australia",
     // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
     price: "",
-    stock: "Paint code #N/A",
+    stock: "Paint code #UD",
   },
 
          {
