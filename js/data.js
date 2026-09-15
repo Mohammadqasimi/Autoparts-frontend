@@ -178,7 +178,20 @@ const INVENTORY = [
     // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
     price: "",
     stock: "Paint code #040",
-  },   
+  },  
+    {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new933.jpeg",
+    id: 108,
+    photos: ["photos/new933.jpeg","photos/new934.jpeg","photos/new935.jpeg", "photos/new936.jpeg", "photos/new937.jpeg", "photos/new938.jpeg", "photos/new939.jpeg",], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKING TOYOTA LAND CRUISER 100 SERIES ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #1B1",
+  }, 
      {
     cat: "New Arrival",
     condition: "",
@@ -191,6 +204,34 @@ const INVENTORY = [
     // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
     price: "",
     stock: "Paint code #KY0",
+  },
+    {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new940.jpeg",
+    id: 109,
+    photos: ["photos/new940.jpeg","photos/new941.jpeg", "photos/new942.jpeg", "photos/new943.jpeg", "photos/new944.jpeg", "photos/new945.jpeg",], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKING 2017 MAZDA 3 BN ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #42M",
+  },
+
+
+      {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new926.jpeg",
+    id: 107,
+    photos: ["photos/new926.jpeg","photos/new927.jpeg","photos/new928.jpeg", "photos/new929.jpeg", "photos/new930.jpeg", "photos/new931.jpeg", "photos/new932.jpeg",], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKING 2021 MG3 ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N/A",
   },
   
    {
