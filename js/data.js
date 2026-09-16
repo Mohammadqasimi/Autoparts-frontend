@@ -236,6 +236,20 @@ const INVENTORY = [
     price: "",
     stock: "Paint code #N/A",
   },
+
+  {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new993.jpeg",
+    id: 116,
+    photos: ["photos/new993.jpeg","photos/new994.jpeg", "photos/new995.jpeg", "photos/new996.jpeg", "photos/new997.jpeg", "photos/new998.jpeg", "photos/new999.jpeg", "photos/new1000.jpeg", "photos/new1001.jpeg", "photos/new1002.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKING 2016 SUZUKI IGNIS ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #ZWC",
+  },
      {
     cat: "New Arrival",
     condition: "",
