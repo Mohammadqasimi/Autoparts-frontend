@@ -166,6 +166,7 @@ const INVENTORY = [
     price: "",
     stock: "Paint code #N/A",
   },
+  
    {
     cat: "New Arrival",
     condition: "",
@@ -179,6 +180,48 @@ const INVENTORY = [
     price: "",
     stock: "Paint code #040",
   },  
+
+    {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new964.jpeg",
+    id: 112,
+    photos: ["photos/new964.jpeg","photos/new965.jpeg", "photos/new966.jpeg", "photos/new967.jpeg", "photos/new968.jpeg", "photos/new969.jpeg", "photos/new970.jpeg", "photos/new971.jpeg","photos/new972.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKING 2014 TOYOTA COROLLA MANUAL",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #8T7",
+  },
+
+  {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new954.jpeg",
+    id: 111,
+    photos: ["photos/new954.jpeg","photos/new955.jpeg", "photos/new956.jpeg", "photos/new957.jpeg", "photos/new958.jpeg", "photos/new959.jpeg", "photos/new960.jpeg", "photos/new961.jpeg","photos/new962.jpeg", "photos/new963.jpeg",], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKING 2025 MG ZST",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N/A",
+  },
+
+     {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new946.jpeg",
+    id: 110,
+    photos: ["photos/new946.jpeg","photos/new947.jpeg", "photos/new948.jpeg", "photos/new949.jpeg", "photos/new950.jpeg", "photos/new951.jpeg", "photos/new952.jpeg", "photos/new953.jpeg",], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKING 2020 MG ZS",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N/A",
+  },
     {
     cat: "New Arrival",
     condition: "",
