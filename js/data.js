@@ -222,6 +222,19 @@ const INVENTORY = [
     price: "",
     stock: "Paint code #N/A",
   },
+     {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new973.jpeg",
+    id: 113,
+    photos: ["photos/new973.jpeg","photos/new974.jpeg", "photos/new975.jpeg", "photos/new976.jpeg", "photos/new977.jpeg", "photos/new978.jpeg", "photos/new979.jpeg", "photos/new980.jpeg","photos/new981.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "NOW WRECKING 2014 TOYOTA PERIUS HYBRID",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #082",
+  },
     {
     cat: "New Arrival",
     condition: "",
