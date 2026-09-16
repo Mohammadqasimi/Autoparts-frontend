@@ -195,6 +195,20 @@ const INVENTORY = [
     stock: "Paint code #8T7",
   },
 
+ {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new987.jpeg",
+    id: 115,
+    photos: ["photos/new987.jpeg","photos/new988.jpeg", "photos/new989.jpeg", "photos/new990.jpeg", "photos/new991.jpeg", "photos/new992.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKING 120 SERIES TOYOTA PRADO",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #1E9",
+  },
+
   {
     cat: "New Arrival",
     condition: "",
@@ -298,6 +312,19 @@ const INVENTORY = [
     photos: ["photos/new912.jpeg","photos/new913.jpeg", "photos/new914.jpeg", "photos/new915.jpeg", "photos/new916.jpeg", "photos/new917.jpeg",, "photos/new918.jpeg", "photos/new919.jpeg"], // TODO: replace with real front/rear/side/interior photos
     catLabel: "ALL BODY PARTS",
     title: "NOW WRECKING 2013 AUDI WAGON",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
+    price: "",
+    stock: "Paint code #N/A",
+  },
+      {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new982.jpeg",
+    id: 114,
+    photos: ["photos/new982.jpeg","photos/new983.jpeg", "photos/new984.jpeg", "photos/new985.jpeg", "photos/new986.jpeg"], // TODO: replace with real front/rear/side/interior photos
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKING 2019 FORD TRANSIT HIGH ROOF",
     fits: "Most Part Still Available we ship parts all over Australia",
     // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
     price: "",
