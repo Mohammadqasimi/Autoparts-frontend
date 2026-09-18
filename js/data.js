@@ -181,6 +181,34 @@ const INVENTORY = [
     stock: "Paint code #040",
   },  
 
+  {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new1017.jpeg",
+    id: 119,
+    photos: ["photos/new1017.jpeg","photos/new1018.jpeg", "photos/new1019.jpeg", "photos/new1020.jpeg", "photos/new1021.jpeg", "photos/new1022.jpeg",, "photos/new1023.jpeg", "photos/new1024.jpeg", "photos/new1025.jpeg","photos/new1026.jpeg",],
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKING 2012 MAZDA CX5 AUTO DIESEL  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description:
+    price: "",
+    stock: "Paint code #36C",
+  },
+
+    {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new1009.jpeg",
+    id: 118,
+    photos: ["photos/new1009.jpeg","photos/new1010.jpeg", "photos/new1011.jpeg", "photos/new1012.jpeg", "photos/new1013.jpeg", "photos/new1014.jpeg",, "photos/new1015.jpeg", "photos/new1016.jpeg"],
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKING 2023 MG ZS ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description:
+    price: "",
+    stock: "Paint code #N/A",
+  },
+
     {
     cat: "New Arrival",
     condition: "",
