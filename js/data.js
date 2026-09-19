@@ -180,6 +180,19 @@ const INVENTORY = [
     price: "",
     stock: "Paint code #040",
   },  
+    {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new1027.jpeg",
+    id: 120,
+    photos: ["photos/new1027.jpeg","photos/new1028.jpeg", "photos/new1029.jpeg", "photos/new1030.jpeg",],
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKING 2018 BMW X4 ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description:
+    price: "",
+    stock: "Paint code #N/A",
+  },
 
   {
     cat: "New Arrival",
@@ -194,6 +207,7 @@ const INVENTORY = [
     price: "",
     stock: "Paint code #36C",
   },
+  
 
     {
     cat: "New Arrival",
@@ -208,6 +222,8 @@ const INVENTORY = [
     price: "",
     stock: "Paint code #N/A",
   },
+
+   
 
     {
     cat: "New Arrival",
