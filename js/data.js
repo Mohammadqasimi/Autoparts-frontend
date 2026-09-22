@@ -194,6 +194,60 @@ const INVENTORY = [
     stock: "Paint code #N/A",
   },
 
+    {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new1052.jpeg",
+    id: 124,
+    photos: ["photos/new1052.jpeg","photos/new1053.jpeg", "photos/new1054.jpeg", "photos/new1055.jpeg","photos/new1056.jpeg", "photos/new1057.jpeg","photos/new1058.jpeg",],
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKING 2012 SUBARU FORESTER ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description:
+    price: "",
+    stock: "Paint code #J20",
+  },
+    {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new1046.jpeg",
+    id: 123,
+    photos: ["photos/new1046.jpeg","photos/new1047.jpeg", "photos/new1048.jpeg", "photos/new1049.jpeg","photos/new1050.jpeg", "photos/new1051.jpeg",],
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKING 2011 TOYOTA COROLLA SEDAN  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description:
+    price: "",
+    stock: "Paint code #209",
+  },
+  
+     {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new1038.jpeg",
+    id: 122,
+    photos: ["photos/new1038.jpeg","photos/new1039.jpeg", "photos/new1040.jpeg", "photos/new1041.jpeg","photos/new1042.jpeg", "photos/new1043.jpeg", "photos/new1044.jpeg", "photos/new1045.jpeg",],
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKING 2014 HYUNDAI SANTAFE  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description:
+    price: "",
+    stock: "Paint code #NCW",
+  },
+     {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new1031.jpeg",
+    id: 121,
+    photos: ["photos/new1031.jpeg","photos/new1032.jpeg", "photos/new1033.jpeg", "photos/new1034.jpeg","photos/new1035.jpeg", "photos/new1036.jpeg", "photos/new1037.jpeg",],
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKING 2014 HYUNDAI I30  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description:
+    price: "",
+    stock: "Paint code #ZU3",
+  },
+
   {
     cat: "New Arrival",
     condition: "",
