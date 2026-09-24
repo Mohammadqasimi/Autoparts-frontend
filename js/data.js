@@ -38,11 +38,11 @@ const HERO_SLIDES = [
 const SERVICES = [
   {
     code: "SVC-01",
-    img: "engine.png",
-    photos: ["engine.png", "engine.png"], 
+    img: "photos/e.jpeg",
+    photos: ["photos/e.jpeg", "photos/e1.jpeg"], 
     title: "Engines",
-    desc: "Quality tested engines.",
-    // description: "Every engine we sell is pulled from a low-mileage donor vehicle, compression-tested and condition-graded before it goes on the shelf. We check fitment against your VIN or plate before dispatch, and every engine carries a minimum 90-day warranty (extended to 6 months when installed by a licensed mechanic). Available for pickup from the yard or nationwide palletised freight.",
+    desc: "2016 toyota Camry 2AR Engine.",
+    // description: ""
   },
   {
     code: "SVC-02",
