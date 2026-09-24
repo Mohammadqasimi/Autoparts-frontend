@@ -193,6 +193,32 @@ const INVENTORY = [
     price: "",
     stock: "Paint code #N/A",
   },
+      {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new1066.jpeg",
+    id: 126,
+    photos: ["photos/new1066.jpeg","photos/new1067.jpeg", "photos/new1068.jpeg", "photos/new1069.jpeg","photos/new1070.jpeg", "photos/new1071.jpeg"],
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKING 2013 KIA CERATO SEDAN  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description:
+    price: "",
+    stock: "Paint code #K3R",
+  },
+      {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new1059.jpeg",
+    id: 125,
+    photos: ["photos/new1059.jpeg","photos/new1060.jpeg", "photos/new1061.jpeg", "photos/new1062.jpeg","photos/new1063.jpeg", "photos/new1064.jpeg","photos/new1065.jpeg",],
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKING 120 SERIES TOYOTA PRADO  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description:
+    price: "",
+    stock: "Paint code #N/A",
+  },
 
     {
     cat: "New Arrival",
