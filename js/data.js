@@ -219,6 +219,19 @@ const INVENTORY = [
     price: "",
     stock: "Paint code #N/A",
   },
+      {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new1072.jpeg",
+    id: 127,
+    photos: ["photos/new1072.jpeg","photos/new1073.jpeg", "photos/new1074.jpeg", "photos/new1075.jpeg","photos/new1076.jpeg","photos/new1077.jpeg","photos/new1078.jpeg",],
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKING 2016 SUZUKI CELERIO  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description:
+    price: "",
+    stock: "Paint code #ZQE",
+  },
 
     {
     cat: "New Arrival",
