@@ -180,6 +180,34 @@ const INVENTORY = [
     price: "",
     stock: "Paint code #040",
   },  
+     {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new1087.jpeg",
+    id: 129,
+    photos: ["photos/new1087.jpeg","photos/new1088.jpeg", "photos/new1089.jpeg", "photos/new1090.jpeg","photos/new1091.jpeg","photos/new1092.jpeg","photos/new1093.jpeg","photos/new1094.jpeg", "photos/new1095.jpeg","photos/new1096.jpeg","photos/new1097.jpeg","photos/new1098.jpeg"],
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKING 2013 MITSUBISHI PAJERO  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description:
+    price: "",
+    stock: "Paint code #2B",
+  },
+
+      {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new1079.jpeg",
+    id: 128,
+    photos: ["photos/new1079.jpeg","photos/new1080.jpeg", "photos/new1081.jpeg", "photos/new1082.jpeg","photos/new1083.jpeg","photos/new1084.jpeg","photos/new1085.jpeg","photos/new1086.jpeg",],
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKING SUBARU FORESTER 2009 TURBO  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description:
+    price: "",
+    stock: "Paint code #N/A",
+  },
+  
     {
     cat: "New Arrival",
     condition: "",
