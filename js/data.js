@@ -179,7 +179,20 @@ const INVENTORY = [
     // description: "Wrecking the 2012 honda accord euro for parts — most panels, mechanical and interior components are still available. Contact us with your VIN or plate to confirm exact fitment, condition grade and price before you buy. Pickup available from the yard or nationwide shipping on request.",
     price: "",
     stock: "Paint code #040",
-  },  
+  }, 
+     {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new1099.jpeg",
+    id: 130,
+    photos: ["photos/new1099.jpeg","photos/new1100.jpeg", "photos/new1101.jpeg", "photos/new1102.jpeg","photos/new1103.jpeg","photos/new1104.jpeg"],
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKING 2012 HYUNDAI SANTAFE  ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description:
+    price: "",
+    stock: "Paint code #W8U",
+  }, 
      {
     cat: "New Arrival",
     condition: "",
