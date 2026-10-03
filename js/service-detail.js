@@ -97,13 +97,31 @@ function renderNotFound() {
 /* ---------------- Main render ---------------- */
 let galleryState = { photos: [], index: 0 };
 
+/**
+ * Accepts either the old simple format:
+ *   photos: ["a.jpg", "b.jpg"]
+ * or the new format where each photo can have its own title
+ * (useful when a category's photos come from different vehicles):
+ *   photos: [{ img: "a.jpg", title: "Engine — 2015 Mazda CX-5" },
+ *            { img: "b.jpg", title: "Engine — 2018 Toyota Corolla" }]
+ * A plain string entry falls back to the category's own title.
+ */
+function normalizePhotos(rawPhotos, fallbackTitle) {
+  return rawPhotos.map((p) =>
+    typeof p === "string"
+      ? { img: p, title: fallbackTitle }
+      : { img: p.img, title: p.title || fallbackTitle },
+  );
+}
+
 function renderService(service) {
   document.title = `${service.title} — Photos & Details | AFJ Auto Parts`;
 
-  const photos =
+  const rawPhotos =
     Array.isArray(service.photos) && service.photos.length
       ? service.photos
       : [service.img];
+  const photos = normalizePhotos(rawPhotos, service.title);
   galleryState = { photos, index: 0 };
 
   const el = document.getElementById("detailContent");
@@ -116,7 +134,7 @@ function renderService(service) {
     <div class="detail-grid">
       <div class="detail-gallery">
         <div class="gallery-main" id="galleryMain">
-          <img id="galleryMainImg" src="${photos[0]}" alt="${service.title} — photo 1">
+          <img id="galleryMainImg" src="${photos[0].img}" alt="${photos[0].title} — photo 1">
           ${
             photos.length > 1
               ? `
@@ -126,14 +144,15 @@ function renderService(service) {
               : ""
           }
         </div>
+        <p class="gallery-caption" id="galleryCaption">${photos[0].title}</p>
         ${
           photos.length > 1
             ? `<div class="gallery-thumbs" id="galleryThumbs">
                 ${photos
                   .map(
                     (p, i) => `
-                  <button type="button" data-index="${i}" class="${i === 0 ? "active" : ""}" aria-label="Photo ${i + 1}">
-                    <img src="${p}" alt="${service.title} — thumbnail ${i + 1}" loading="lazy">
+                  <button type="button" data-index="${i}" class="${i === 0 ? "active" : ""}" aria-label="${p.title}" title="${p.title}">
+                    <img src="${p.img}" alt="${p.title} — thumbnail ${i + 1}" loading="lazy">
                   </button>`,
                   )
                   .join("")}
@@ -174,6 +193,7 @@ function renderService(service) {
     </div>`;
 
   initGalleryControls();
+  renderVehicleSources(service);
 }
 
 /* ---------------- Gallery interactions ---------------- */
@@ -185,10 +205,15 @@ function initGalleryControls() {
   const thumbs = document.querySelectorAll("#galleryThumbs button");
   const mainWrap = document.getElementById("galleryMain");
 
+  const caption = document.getElementById("galleryCaption");
+
   function show(index) {
     const total = galleryState.photos.length;
     galleryState.index = ((index % total) + total) % total;
-    mainImg.src = galleryState.photos[galleryState.index];
+    const current = galleryState.photos[galleryState.index];
+    mainImg.src = current.img;
+    mainImg.alt = current.title;
+    if (caption) caption.textContent = current.title;
     if (counter) counter.textContent = `${galleryState.index + 1} / ${total}`;
     thumbs.forEach((t, i) =>
       t.classList.toggle("active", i === galleryState.index),
@@ -229,7 +254,9 @@ function initLightbox(showFn) {
 
   window._afjLightboxShow = showFn;
   window._afjUpdateLightboxImg = () => {
-    img.src = galleryState.photos[galleryState.index];
+    const current = galleryState.photos[galleryState.index];
+    img.src = current.img;
+    img.alt = current.title;
   };
 
   closeBtn.addEventListener("click", closeLightbox);
@@ -238,11 +265,15 @@ function initLightbox(showFn) {
   });
   prevBtn.addEventListener("click", () => {
     showFn(galleryState.index - 1);
-    img.src = galleryState.photos[galleryState.index];
+    const current = galleryState.photos[galleryState.index];
+    img.src = current.img;
+    img.alt = current.title;
   });
   nextBtn.addEventListener("click", () => {
     showFn(galleryState.index + 1);
-    img.src = galleryState.photos[galleryState.index];
+    const current = galleryState.photos[galleryState.index];
+    img.src = current.img;
+    img.alt = current.title;
   });
 }
 
@@ -254,7 +285,9 @@ function openLightbox(index) {
   const overlay = document.getElementById("lightbox");
   const img = document.getElementById("lightboxImg");
   if (!overlay || !img) return;
-  img.src = galleryState.photos[index];
+  const current = galleryState.photos[index];
+  img.src = current.img;
+  img.alt = current.title;
   overlay.classList.add("open");
 }
 
@@ -289,6 +322,46 @@ function renderRelated(current) {
           <h3>${item.title}</h3>
           <p class="fits">${item.desc || ""}</p>
           <a class="inv-details-btn" href="service-detail.html?id=${item.code}">
+            <i class="fa-solid fa-images"></i> More Details &amp; Photos
+          </a>
+        </div>
+      </div>`;
+    })
+    .join("");
+
+  section.style.display = "block";
+}
+
+/* ---------------- Vehicles currently supplying this part category ----------------
+   Every vehicle in INVENTORY is a potential source for this part category
+   (e.g. every car in stock could supply an engine, doors, etc). This shows
+   the full current inventory with real photos so the customer can browse
+   by make/model and click through to enquire about a specific vehicle. */
+function renderVehicleSources(service) {
+  const section = document.getElementById("vehicleSourcesSection");
+  const grid = document.getElementById("vehicleSourcesGrid");
+  const title = document.getElementById("vehicleSourcesTitle");
+  if (!section || !grid || typeof INVENTORY === "undefined") return;
+
+  const vehicles = INVENTORY;
+  if (!vehicles.length) return;
+
+  if (title) title.textContent = `Vehicles We're Currently Wrecking For ${service.title}`;
+
+  grid.innerHTML = vehicles
+    .map((item) => {
+      const photoCount =
+        Array.isArray(item.photos) && item.photos.length ? item.photos.length : 1;
+      return `
+      <div class="inv-card">
+        <a class="inv-media" href="car-detail.html?id=${item.id}" aria-label="View all photos of ${item.title}">
+          <img src="${item.img}" alt="${item.title}" loading="lazy">
+          <span class="inv-photo-count"><i class="fa-solid fa-camera"></i> ${photoCount}</span>
+        </a>
+        <div class="inv-body">
+          <span class="cat">${item.catLabel || ""}</span>
+          <h3>${item.title}</h3>
+          <a class="inv-details-btn" href="car-detail.html?id=${item.id}">
             <i class="fa-solid fa-images"></i> More Details &amp; Photos
           </a>
         </div>

@@ -36,6 +36,21 @@ const HERO_SLIDES = [
 
 // ---- Services / "Shop by category" swiper cards ----
 const SERVICES = [
+
+  //  {
+  //   code: "SVC-01",
+  //   img: "car-engine-25780404.webp",
+  //   photos: [
+  //     { img: "car-engine-25780404.webp", title: "Engine — General Stock" },
+  //     { img: "new400.jpeg", title: "This is camry engine " },
+  //     { img: "new452.jpeg", title: "This is for toyota engine" },
+  //     { img: "new431.jpeg", title: "This is for all" },
+  //   ], // Add one entry per real engine photo — each can have its own title (car it came from)
+  //   title: "Engines",
+  //   desc: "Quality tested engines.",
+  //   description: "Every engine we sell is pulled from a low-mileage donor vehicle, compression-tested and condition-graded before it goes on the shelf. We check fitment against your VIN or plate before dispatch, and every engine carries a minimum 90-day warranty (extended to 6 months when installed by a licensed mechanic). Available for pickup from the yard or nationwide palletised freight.",
+  // },
+  
   {
     code: "SVC-01",
     img: "photos/e.jpeg",
