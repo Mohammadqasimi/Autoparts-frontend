@@ -214,6 +214,19 @@ const INVENTORY = [
     price: "",
     stock: "Paint code #N/A",
   },
+   {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new1138.jpeg",
+    id: 137,
+    photos: ["photos/new1138.jpeg","photos/new1139.jpeg", "photos/new1140.jpeg", "photos/new1141.jpeg","photos/new1142.jpeg","photos/new1143.jpeg"],
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKING 2013 HYUNDAI ELENTRA ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description:
+    price: "",
+    stock: "Paint code #S7U",
+  },
   
    {
     cat: "New Arrival",
