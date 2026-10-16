@@ -50,7 +50,7 @@ const SERVICES = [
       { img: "photos/e6.jpeg", title: "2016 HYUND Tucson engine paint #G4NC " },
       { img: "photos/e7.jpeg", title: "2016 HYUND Tucson engine paint #G4NC" },
       { img: "photos/e8.jpeg", title: "2016 HYUND Tucson engine paint #G4NC " },
-       
+     
     ],
   
     title: "Engines",
@@ -200,6 +200,19 @@ const INVENTORY = [
     // description:
     price: "",
     stock: "Paint code #W8U",
+  },
+   {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new1131.jpeg",
+    id: 136,
+    photos: ["photos/new1131.jpeg","photos/new1132.jpeg", "photos/new1133.jpeg", "photos/new1134.jpeg","photos/new1135.jpeg","photos/new1136.jpeg","photos/new1137.jpeg"],
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKING 2014 MERCEDES BENZ A 180 ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description:
+    price: "",
+    stock: "Paint code #N/A",
   },
   
    {
