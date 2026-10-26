@@ -217,6 +217,19 @@ const INVENTORY = [
    {
     cat: "New Arrival",
     condition: "",
+    img: "photos/new1144.jpeg",
+    id: 138,
+    photos: ["photos/new1144.jpeg","photos/new1145.jpeg", "photos/new1146.jpeg", "photos/new1147.jpeg","photos/new1148.jpeg","photos/new1149.jpeg"],
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKING 2017 volkswagen tiguan",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description:
+    price: "",
+    stock: "Paint code #N/A",
+  },
+   {
+    cat: "New Arrival",
+    condition: "",
     img: "photos/new1138.jpeg",
     id: 137,
     photos: ["photos/new1138.jpeg","photos/new1139.jpeg", "photos/new1140.jpeg", "photos/new1141.jpeg","photos/new1142.jpeg","photos/new1143.jpeg"],
