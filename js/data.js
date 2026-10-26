@@ -227,6 +227,32 @@ const INVENTORY = [
     price: "",
     stock: "Paint code #N/A",
   },
+    {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new1150.jpeg",
+    id: 139,
+    photos: ["photos/new1150.jpeg","photos/new1151.jpeg", "photos/new1152.jpeg", "photos/new1153.jpeg","photos/new1154.jpeg","photos/new1155.jpeg","photos/new1156.jpeg"],
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKING 2016 hyundai tucson ",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description:
+    price: "",
+    stock: "Paint code #PKW",
+  },
+    {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new1157.jpeg",
+    id: 140,
+    photos: ["photos/new1157.jpeg","photos/new1158.jpeg", "photos/new1159.jpeg", "photos/new1160.jpeg","photos/new1161.jpeg","photos/new1162.jpeg","photos/new1163.jpeg","photos/new1164.jpeg"],
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKING 2013 BMW F20",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description:
+    price: "",
+    stock: "Paint code #N/A",
+  },
    {
     cat: "New Arrival",
     condition: "",
