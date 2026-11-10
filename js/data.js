@@ -188,6 +188,7 @@ const INVENTORY = [
     price: "",
     stock: "Paint code #N/A",
   },
+
      {
     cat: "New Arrival",
     condition: "",
@@ -200,6 +201,32 @@ const INVENTORY = [
     // description:
     price: "",
     stock: "Paint code #W8U",
+  },
+     {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new1165.jpeg",
+    id: 141,
+    photos: ["photos/new1165.jpeg","photos/new1166.jpeg", "photos/new1167.jpeg", "photos/new1168.jpeg","photos/new1169.jpeg","photos/new1170.jpeg","photos/new1171.jpeg",],
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKING 2025 MG3",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description:
+    price: "",
+    stock: "Paint code #5WSB",
+  },
+    {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new1172.jpeg",
+    id: 142,
+    photos: ["photos/new1172.jpeg","photos/new1173.jpeg", "photos/new1174.jpeg", "photos/new1175.jpeg","photos/new1176.jpeg","photos/new1177.jpeg",],
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKING 2023 KIA SELTOS",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description:
+    price: "",
+    stock: "Paint code #SWP",
   },
    {
     cat: "New Arrival",
