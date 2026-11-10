@@ -189,6 +189,20 @@ const INVENTORY = [
     stock: "Paint code #N/A",
   },
 
+   {
+    cat: "New Arrival",
+    condition: "",
+    img: "photos/new1178.jpeg",
+    id: 143,
+    photos: ["photos/new1178.jpeg","photos/new1179.jpeg", "photos/new1180.jpeg", "photos/new1181.jpeg","photos/new1182.jpeg","photos/new1183.jpeg","photos/new1184.jpeg",],
+    catLabel: "ALL BODY PARTS",
+    title: "WRECKING 2016 Mitsubishi ASX",
+    fits: "Most Part Still Available we ship parts all over Australia",
+    // description:
+    price: "",
+    stock: "Paint code #P26",
+  },
+
      {
     cat: "New Arrival",
     condition: "",
